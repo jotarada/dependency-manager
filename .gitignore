@@ -1,2 +1,54 @@
+# use glob syntax.
+syntax: glob
+*.ser
 *.class
-*.log
+*~
+*.bak
+#*.off
+*.old
+spark-warehouse
+
+# eclipse conf file
+.settings
+.classpath
+.project
+.manager
+.scala_dependencies
+
+# idea
+.idea
+*.iml
+
+# building
+target/
+build
+null
+tmp*
+temp*
+dist
+test-output
+build.log
+
+# other scm
+.svn
+.CVS
+.hg*
+
+# switch to regexp syntax.
+#  syntax: regexp
+#  ^\.pc/
+
+# output not in target directory
+build.log
+derby.log
+
+
+
+src/main/scala/com/prozis/data/.DS_Store
+.DS_Store
+spark-warehouse
+metastore_db
+project/target
+project/project
+
+
